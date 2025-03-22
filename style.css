@@ -1,0 +1,23 @@
+body{
+    padding:25px;
+}
+*{
+    box-sizing:border-box;
+}
+.container{
+    border:1px solid rgb(49, 52, 49);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    width: 1225px;
+    flex-direction: column;
+    height: auto;
+}
+.item{
+    height: 100px;
+    width:100px;
+    border: 2px solid green;
+    padding: 20px;
+    background-color: rgb(186, 245, 10);
+    font-size: 25px;
+}
